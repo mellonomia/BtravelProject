@@ -27,3 +27,82 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
+.tours_row {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 47px;
+    margin: 0 auto;
+    margin-top: 59px;
+}
+.tour_card {
+    width: 366px;
+    height: 373px;
+    border: 1px solid #69A2B0;
+    border-radius: 20px;
+}
+.tour_card-img {
+    width: 344px;
+    height: 224px;
+    border-radius: 12px;
+    margin: 12px ;
+}
+.tour_card-country {
+    font-weight: 600;
+}
+.tour_card-general {
+    margin: 0 12px 22px 12px;
+    gap: 8px;
+}
+.tour_card-title {
+    display: flex;
+    justify-content: space-between;
+}
+.tour_card-description {
+    display: flex;
+}
+.tour_card-info {
+    display: flex;
+    width: 270px;
+    height: 61px;
+    margin-top: 8px;
+}
+.tour_card-hotel {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.tours_title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #F3A916;
+    margin: 0 auto;
+    width: 397px;
+}
+.tours_btn {
+    background-color: #F3A916;
+    border: 0;
+    padding: 15px 75px;
+    color: white;
+    border-radius: 20px;
+    margin-top: 42px;
+    font-size: 24px;
+    font-family: 'Montserrat';
+
+}
+
+.tours_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-size: 24px;
+}
+.tour_card-price {
+    color: white;
+    background-color: #F5B841;
+    padding: 10px;
+    height: 29px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
